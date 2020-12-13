@@ -16,8 +16,6 @@ using namespace std;
  * Description: Given a list of acitivities, map of activities that must be completed before
  * a given activity, and time limit, finds the number of possible orderings of
  * activities and prints them out. This is the iterative approach, using a loop and stack.
- * Uses the basic structure for turning a recursive function to an iterative function posted
- * by Chris Gregg on Ed.
  *
  * Parameters: Vector<Activity>& activities, activities that can be done,
  * Map<string, Set<Activity>>& prerequisites, maps the name of an activity to the set
